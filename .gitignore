@@ -1,0 +1,18 @@
+# 忽略Keil的用户配置和编译临时文件[reference:8]
+*.uvguix.*
+*.uvoptx
+*.scvd
+
+# 忽略编译生成的中间文件及最终文件[reference:9]
+Objects/
+Listings/
+*.o
+*.d
+*.crf
+*.htm
+*.dep
+*.map
+*.bak
+*.axf
+*.hex
+*.bin
